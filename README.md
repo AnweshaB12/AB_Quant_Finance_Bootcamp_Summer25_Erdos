@@ -6,7 +6,7 @@ This repository contains a set of four mini projects completed as part of the **
 
 ### Project 1: Portfolio Optimization
 
-### Notebook: Mini_Project_1.ipynb
+**Notebook:** `Mini_Project_1.ipynb`  
 
 Constructed and analyzed **two investment portfolios** (high-risk and low-risk) using historical stock data (2015–2025) from Yahoo Finance.  
 - Applied constraints on weight allocations
@@ -20,7 +20,7 @@ Constructed and analyzed **two investment portfolios** (high-risk and low-risk) 
 
 ### Project 2: Testing Normality of Returns
 
-### Notebook: Mini_Project_2.ipynb
+**Notebook:** `Mini_Project_2.ipynb`  
 
 Tested the **normality assumption** in stock returns using:
 - Shapiro-Wilk and D'Agostino-Pearson tests
@@ -34,7 +34,7 @@ Tested the **normality assumption** in stock returns using:
 
 ### Project 3: Option Sensitivities (Greeks)
 
-### Notebook: Mini_Project_3.ipynb
+**Notebook:** `Mini_Project_3.ipynb`  
 
 Explored how **option price sensitivities** (Delta and Theta) vary with:
 - Spot price (for a fixed time to maturity)
@@ -49,7 +49,7 @@ Generated heatmaps and surface plots using the Black-Scholes model for both call
 
 ### Project 4: Delta and Sigma Hedging under Stochastic Volatility
 
-### Notebook: Mini_Project_4.ipynb
+**Notebook:** `Mini_Project_4.ipynb`  
 
 Simulated stock paths using advanced volatility models:
 - **Heston**, **SABR**, **GARCH(1,1)**, and a custom sigma model
@@ -72,17 +72,4 @@ Simulated stock paths using advanced volatility models:
 
 ### Repository Structure
 
-Quantitative-Finance-Bootcamp/
-│
-├── Mini_Project_1.ipynb # Portfolio Optimization
-├── Mini_Project_2.ipynb # Testing Normality of Returns
-├── Mini_Project_3.ipynb # Option Sensitivities (Greeks)
-├── Mini_Project_4.ipynb # Delta and Sigma Hedging under Stochastic Volatility
-├── Test for Normality Notebook.ipynb # Supplementary analysis for normality testing
-├── README.md
-│
-└── data/
-├── high_risk_portfolio_weights.csv
-├── low_risk_portfolio_weights.csv
-├── prices.csv
-└── log_returns.csv
+<pre> <code> Mini_Projects/ │ ├── Mini_Project_1.ipynb ├── Mini_Project_2.ipynb ├── Mini_Project_3.ipynb ├── Mini_Project_4.ipynb ├── Test for Normality Notebook.ipynb │ ├── data/ # Input datasets (CSV or downloaded data) │ ├── high_risk_portfolio_weights.csv │ ├── low_risk_portfolio_weights.csv │ ├── prices.csv │ └── log_returns.csv </code> </pre>
