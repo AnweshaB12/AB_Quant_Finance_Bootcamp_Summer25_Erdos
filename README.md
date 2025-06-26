@@ -14,7 +14,7 @@ Constructed and analyzed **two investment portfolios** (high-risk and low-risk) 
 - Used `scipy.optimize` for portfolio weight optimization
 - Visualized allocations and performance metrics
 
-➡️ *Key Outcome:* Successfully optimized both portfolios under different risk constraints and quantitatively justified their profiles using Sharpe ratios and volatility-return tradeoffs.
+*Key Outcome:* Successfully optimized both portfolios under different risk constraints and quantitatively justified their profiles using Sharpe ratios and volatility-return tradeoffs.
 
 ---
 
@@ -28,7 +28,7 @@ Tested the **normality assumption** in stock returns using:
 - Return filtering via clipping (to simulate outlier control)
 - Comparison of raw vs. filtered return distributions
 
-➡️ *Key Outcome:* Showed that while individual stocks often deviate from normality, filtered portfolios can exhibit closer-to-normal behavior. Visualized the evolution of p-values over time.
+*Key Outcome:* Showed that while individual stocks often deviate from normality, filtered portfolios can exhibit closer-to-normal behavior. Visualized the evolution of p-values over time.
 
 ---
 
@@ -39,11 +39,8 @@ Tested the **normality assumption** in stock returns using:
 Explored how **option price sensitivities** (Delta and Theta) vary with:
 - Spot price (for a fixed time to maturity)
 - Time to maturity (for a fixed spot price)
-- Interest rate variations
 
-Generated heatmaps and surface plots using the Black-Scholes model for both call and put options.
-
-➡️ *Key Outcome:* Built intuition behind the Greeks and their dynamic behavior; visualized how options behave under different market conditions.
+*Key Outcome:* Built intuition behind the Greeks and their dynamic behavior.
 
 ---
 
@@ -57,11 +54,11 @@ Simulated stock paths using advanced volatility models:
 - Extended to **Static and Dynamic Sigma (Vega) Hedging**
 - Compared profit distributions across models
 
-*Key Outcome:* Demonstrated the limitations of traditional delta hedging under non-constant volatility, and explored how vega exposure can improve hedging — especially for SABR-type dynamics.
+*Key Outcome:* Demonstrated the limitations of traditional delta hedging under non-constant volatility, and explored how vega exposure can improve hedging, especially for SABR-type dynamics.
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 - How to apply statistical tests to financial return series
 - Strengths and weaknesses of Black-Scholes assumptions
 - Portfolio optimization under constraints
@@ -89,13 +86,21 @@ AB_Quant_Finance_Bootcamp_Summer25_Erdos/
 └── log_returns.csv
  </code> </pre>
 
- ## Setup Instructions
+## Setup Instructions
 
  ### 1. Clone the Repository
  `https://github.com/AnweshaB12/AB_Quant_Finance_Bootcamp_Summer25_Erdos.git`
 
- ### Create Environment with Requirements
+ ### 2. Create Environment with Requirements
  `conda env create -f environment.yml`
 
- ### Activate the environment
+ ### 3. Activate the environment
 `conda activate quant-finance-env`
+
+## Usage
+
+1. Launch the notebook interface:
+`jupyter lab`
+
+2. Open any of the four .ipynb notebooks.
+You may edit or run them directly. Data is either downloaded using APIs (like yfinance) or provided in the data/ folder.
