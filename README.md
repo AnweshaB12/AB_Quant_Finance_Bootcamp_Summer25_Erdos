@@ -5,6 +5,9 @@ This repository contains a set of four mini projects completed as part of the **
 ## Projects Overview
 
 ### Project 1: Portfolio Optimization
+
+### Notebook: Mini_Project_1.ipynb
+
 Constructed and analyzed **two investment portfolios** (high-risk and low-risk) using historical stock data (2015–2025) from Yahoo Finance.  
 - Applied constraints on weight allocations
 - Computed returns, volatilities, and Sharpe ratios
@@ -16,6 +19,9 @@ Constructed and analyzed **two investment portfolios** (high-risk and low-risk) 
 ---
 
 ### Project 2: Testing Normality of Returns
+
+### Notebook: Mini_Project_2.ipynb
+
 Tested the **normality assumption** in stock returns using:
 - Shapiro-Wilk and D'Agostino-Pearson tests
 - Rolling window normality testing
@@ -27,6 +33,9 @@ Tested the **normality assumption** in stock returns using:
 ---
 
 ### Project 3: Option Sensitivities (Greeks)
+
+### Notebook: Mini_Project_3.ipynb
+
 Explored how **option price sensitivities** (Delta and Theta) vary with:
 - Spot price (for a fixed time to maturity)
 - Time to maturity (for a fixed spot price)
@@ -39,13 +48,16 @@ Generated heatmaps and surface plots using the Black-Scholes model for both call
 ---
 
 ### Project 4: Delta and Sigma Hedging under Stochastic Volatility
+
+### Notebook: Mini_Project_4.ipynb
+
 Simulated stock paths using advanced volatility models:
 - **Heston**, **SABR**, **GARCH(1,1)**, and a custom sigma model
 - Implemented **Black-Scholes Delta Hedging**
 - Extended to **Static and Dynamic Sigma (Vega) Hedging**
 - Compared profit distributions across models
 
-➡️ *Key Outcome:* Demonstrated the limitations of traditional delta hedging under non-constant volatility, and explored how vega exposure can improve hedging — especially for SABR-type dynamics.
+*Key Outcome:* Demonstrated the limitations of traditional delta hedging under non-constant volatility, and explored how vega exposure can improve hedging — especially for SABR-type dynamics.
 
 ---
 
@@ -58,4 +70,19 @@ Simulated stock paths using advanced volatility models:
 
 ---
 
-### 📂 Repository Structure
+### Repository Structure
+
+Quantitative-Finance-Bootcamp/
+│
+├── Mini_Project_1.ipynb # Portfolio Optimization
+├── Mini_Project_2.ipynb # Testing Normality of Returns
+├── Mini_Project_3.ipynb # Option Sensitivities (Greeks)
+├── Mini_Project_4.ipynb # Delta and Sigma Hedging under Stochastic Volatility
+├── Test for Normality Notebook.ipynb # Supplementary analysis for normality testing
+├── README.md
+│
+└── data/
+├── high_risk_portfolio_weights.csv
+├── low_risk_portfolio_weights.csv
+├── prices.csv
+└── log_returns.csv
