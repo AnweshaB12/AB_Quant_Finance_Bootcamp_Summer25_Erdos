@@ -72,4 +72,21 @@ Simulated stock paths using advanced volatility models:
 
 ### Repository Structure
 
+<pre> <code> 
+AB_Quant_Finance_Bootcamp_Summer25_Erdos/
+│
+├── Mini_Project_1.ipynb # Portfolio Optimization
+├── Mini_Project_2.ipynb # Testing Normality of Returns
+├── Mini_Project_3.ipynb # Option Sensitivities (Greeks)
+├── Mini_Project_4.ipynb # Delta and Sigma Hedging under Stochastic Volatility
+├── Test for Normality Notebook.ipynb # Supplementary analysis for normality testing
+├── README.md
+│
+└── data/
+├── high_risk_portfolio_weights.csv
+├── low_risk_portfolio_weights.csv
+├── prices.csv
+└── log_returns.csv
+ </code> </pre>
+
 <pre> <code> Mini_Projects/ │ ├── Mini_Project_1.ipynb ├── Mini_Project_2.ipynb ├── Mini_Project_3.ipynb ├── Mini_Project_4.ipynb ├── Test for Normality Notebook.ipynb │ ├── data/ # Input datasets (CSV or downloaded data) │ ├── high_risk_portfolio_weights.csv │ ├── low_risk_portfolio_weights.csv │ ├── prices.csv │ └── log_returns.csv </code> </pre>
