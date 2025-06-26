@@ -89,4 +89,13 @@ AB_Quant_Finance_Bootcamp_Summer25_Erdos/
 └── log_returns.csv
  </code> </pre>
 
-<pre> <code> Mini_Projects/ │ ├── Mini_Project_1.ipynb ├── Mini_Project_2.ipynb ├── Mini_Project_3.ipynb ├── Mini_Project_4.ipynb ├── Test for Normality Notebook.ipynb │ ├── data/ # Input datasets (CSV or downloaded data) │ ├── high_risk_portfolio_weights.csv │ ├── low_risk_portfolio_weights.csv │ ├── prices.csv │ └── log_returns.csv </code> </pre>
+ ## Setup Instructions
+
+ ### 1. Clone the Repository
+ `https://github.com/AnweshaB12/AB_Quant_Finance_Bootcamp_Summer25_Erdos.git`
+
+ ### Create Environment with Requirements
+ `conda env create -f environment.yml`
+
+ ### Activate the environment
+`conda activate quant-finance-env`
