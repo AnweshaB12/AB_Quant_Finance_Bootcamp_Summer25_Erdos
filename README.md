@@ -67,7 +67,7 @@ Simulated stock paths using advanced volatility models:
 
 ---
 
-### Repository Structure
+## Repository Structure
 
 <pre> <code> 
 AB_Quant_Finance_Bootcamp_Summer25_Erdos/
