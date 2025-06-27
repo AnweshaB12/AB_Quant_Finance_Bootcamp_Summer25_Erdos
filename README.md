@@ -94,7 +94,7 @@ AB_Quant_Finance_Bootcamp_Summer25_Erdos/
  ### 2. Create Environment with Requirements
  `conda env create -f environment.yml`
 
- ### 3. Activate the environment
+ ### 3. Activate the Environment
 `conda activate quant-finance-env`
 
 ## Usage
